@@ -15,4 +15,4 @@ with open('tmb_geojson.json', 'r') as file:
         date_options="YYYY-MM-DD HH:mm:ss"
     ).add_to(m)
 
-m.save('tmb_map.html')
+m.save('dist/index.html')
